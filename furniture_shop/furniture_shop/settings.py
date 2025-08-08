@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'furniture_shop',
     'admin_backend',
     'user_backend',
-    'guest_backend',
+    'guest_frontend',
 ]
 
 MIDDLEWARE = [
