@@ -10,6 +10,7 @@ class Category(models.Model):
 
 
 class Product(models.Model):
+    id_product = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100, null=True, blank=True)
     price = models.IntegerField(null=True, blank=True)
     category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True, blank=True, related_name='products')
