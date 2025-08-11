@@ -1,0 +1,71 @@
+/* Ensure .furDeco absolute positioning is relative to .navbar-brand */
+.navbar-brand {
+	position: relative;
+}
+/* image 40 */
+.background{
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: -15px;
+top: -55px;
+}
+
+/* FurDeco */
+.furDeco{
+position: absolute;
+width: 122px;
+height: 42px;
+left: 170px;
+top: 43px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 130%;
+
+color: #FFFFFF;
+}
+
+
+/* Frame 3 */
+
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 0 40px;
+	background: transparent;
+	position: static;
+	width: 100%;
+	height: 60px;
+}
+
+.navbar-nav {
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	justify-content: flex-end;
+}
+
+.nav-item {
+	display: flex;
+	align-items: center;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	padding: 8px 12px;
+	transition: color 0.2s;
+}
+
+.nav-link:hover {
+	color: #000000;
+}
